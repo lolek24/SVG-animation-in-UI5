@@ -1,0 +1,15 @@
+{
+  "generator-ui5-app": {
+    "namespace": "com.icon",
+    "framework": "SAPUI5",
+    "frameworkVersion": "1.120.0",
+    "author": "Tomasz Dygas",
+    "initrepo": true,
+    "appId": "com.icon",
+    "appURI": "com/icon",
+    "cdnDomain": "ui5.sap.com",
+    "defaultTheme": "sap_horizon",
+    "qunitCoverageFile": "qunit-coverage-istanbul.js",
+    "setupCompleted": true
+  }
+}
