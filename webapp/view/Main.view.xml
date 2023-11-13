@@ -2,11 +2,18 @@
 	controllerName="com.icon.controller.Main"
 	displayBlock="true"
 	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:core="sap.ui.core"
 	core:require="{
 		formatter: 'com/icon/model/formatter'
 	}">
+	<Page>
+		
+			<core:HTML id="HTMLcontent" >
+			</core:HTML>
+			<core:HTML content="&lt;divid=&quot;Hcontainer&quot;&gt;&lt;/div&gt;"></core:HTML>
+		
 
 	<MessagePage
 		title="{i18n>appTitle}"
@@ -21,5 +28,5 @@
 				press="sayHello" />
 		</buttons>
 	</MessagePage>
-
+</Page>
 </mvc:View>
