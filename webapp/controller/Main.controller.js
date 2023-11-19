@@ -20,6 +20,7 @@ sap.ui.define(
 					content: sPanelInfoText,
 				});
 				var Chart = this.chart();
+				this.getView().byId("HTMLcontent").setContent(Chart.outerHTML);
 				this.getView().setModel(this.JSONModel, "JSONModel");
 			},
 			chart: function () {

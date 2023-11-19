@@ -2,7 +2,7 @@
 	"name": "com.icon",
 	"version": "1.0.0",
 	"description": "UI5 Application: com.icon",
-	"author": "Tomasz Dygas",
+	"author": "Lolek24",
 	"license": "Apache-2.0",
 	"scripts": {
 		"clean": "rimraf dist coverage",
